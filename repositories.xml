@@ -1,0 +1,14 @@
+<repositories encoding="unicode" version="1.1">
+  <repo priority="50" quality="experimental">
+    <name>joenyland</name>
+    <description>My personal Gentoo Portage overlay</description>
+    <homepage>https://github.com/JoeNyland/gentoo-overlay</homepage>
+    <owner>
+      <email>joenyland@me.com</email>
+      <name>Joe Nyland</name>
+    </owner>
+    <source type="git">https://github.com/JoeNyland/gentoo-overlay.git</source>
+    <source type="git">git@github.com:JoeNyland/gentoo-overlay.git</source>
+    <feed>https://github.com/JoeNyland/gentoo-overlay/commits/master.atom</feed>
+  </repo>
+</repositories>
