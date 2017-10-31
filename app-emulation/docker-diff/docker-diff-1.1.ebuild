@@ -13,8 +13,10 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 ~x86"
 
-DEPEND="app-emulation/docker"
-RDEPEND="${DEPEND}"
+DEPEND=""
+RDEPEND="
+    ${DEPEND}
+	app-emulation/docker"
 
 src_install() {
     dobin docker-diff
