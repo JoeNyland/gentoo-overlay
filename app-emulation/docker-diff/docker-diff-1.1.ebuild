@@ -3,6 +3,8 @@
 
 EAPI=6
 
+inherit bash-completion-r1
+
 DESCRIPTION="Compare Docker images"
 HOMEPAGE="https://github.com/JoeNyland/docker-diff"
 SRC_URI="https://github.com/JoeNyland/docker-diff/archive/v1.1.tar.gz"
@@ -16,4 +18,5 @@ RDEPEND="${DEPEND}"
 
 src_install() {
     dobin docker-diff
+    newbashcomp docker-diff-completion ${PN}
 }
