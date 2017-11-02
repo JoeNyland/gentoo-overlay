@@ -11,7 +11,7 @@ SRC_URI="https://github.com/JoeNyland/docker-diff/archive/v1.1.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 
 DEPEND=""
 RDEPEND="
